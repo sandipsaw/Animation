@@ -28,7 +28,7 @@ const App = () => {
   }
   return (
     <div>
-      <div onMouseMove={handleMove} className='w-full h-screen text-md bg-black'>
+      <div onMouseMove={handleMove} className='w-full relative h-screen text-md bg-black'>
         <div id='cursor' className='h-10 w-10 bg-white rounded-full fixed top-0 left-0 pointer-events-none text-md leading-0'>
         <MdOutlineArrowOutward className='text-xl p-1 w-full h-full'></MdOutlineArrowOutward>
         </div>
