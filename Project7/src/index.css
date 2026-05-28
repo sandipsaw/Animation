@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@font-face{
+  font-family: "manrope";
+  src: url("./assets/Manrope-VariableFont_wght.woff2") format("woff2");
+}
+@font-face {
+  font-family: Machina;
+  src: url("./assets/NeueMachina-Regular.woff2");
+}
+
